@@ -1,3 +1,3 @@
 EXPORT DATABASE
-  'E:/projects/Chicago/chicago-transportation/data'
+  'E:/projects/Chicago/chicago-transport/data'
   (FORMAT PARQUET);

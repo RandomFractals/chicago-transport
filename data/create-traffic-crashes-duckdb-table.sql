@@ -5,4 +5,4 @@
 SET experimental_parallel_csv=true;
 
 CREATE TABLE TrafficCrashes AS SELECT *
-  FROM read_csv_auto('E:/projects/Chicago/chicago-transportation/data/traffic-crashes.csv');
+  FROM read_csv_auto('E:/projects/Chicago/chicago-transport/data/traffic-crashes.csv');

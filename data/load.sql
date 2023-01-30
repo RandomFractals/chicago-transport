@@ -1,1 +1,1 @@
-COPY "TrafficCrashes" FROM 'E:/projects/Chicago/chicago-transportation/data/trafficcrashes.parquet' (FORMAT 'parquet');
+COPY "TrafficCrashes" FROM 'E:/projects/Chicago/chicago-transport/data/trafficcrashes.parquet' (FORMAT 'parquet');
