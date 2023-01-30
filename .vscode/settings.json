@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 1000,
+      "driver": "DuckDB",
+      "name": "traffic-crashes.duckdb",
+      "database": ":memory:"
+    }
+  ]
+}
