@@ -1,1 +1,2 @@
 data/traffic-crashes.csv
+data/*.parquet
