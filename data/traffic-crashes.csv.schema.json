@@ -1,0 +1,252 @@
+{
+  "fields": [
+    {
+      "name": "CRASH_RECORD_ID",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "RD_NO",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_DATE_EST_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_DATE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "POSTED_SPEED_LIMIT",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "TRAFFIC_CONTROL_DEVICE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DEVICE_CONDITION",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "WEATHER_CONDITION",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "LIGHTING_CONDITION",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "FIRST_CRASH_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "TRAFFICWAY_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "LANE_CNT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ALIGNMENT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ROADWAY_SURFACE_COND",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "ROAD_DEFECT",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "REPORT_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "INTERSECTION_RELATED_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NOT_RIGHT_OF_WAY_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "HIT_AND_RUN_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DAMAGE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DATE_POLICE_NOTIFIED",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PRIM_CONTRIBUTORY_CAUSE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SEC_CONTRIBUTORY_CAUSE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "STREET_NO",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "STREET_DIRECTION",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "STREET_NAME",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "BEAT_OF_OCCURRENCE",
+      "type": "year",
+      "format": "default"
+    },
+    {
+      "name": "PHOTOS_TAKEN_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "STATEMENTS_TAKEN_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DOORING_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "WORK_ZONE_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "WORK_ZONE_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "WORKERS_PRESENT_I",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NUM_UNITS",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "MOST_SEVERE_INJURY",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_TOTAL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_FATAL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_INCAPACITATING",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_NON_INCAPACITATING",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_REPORTED_NOT_EVIDENT",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_NO_INDICATION",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "INJURIES_UNKNOWN",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_HOUR",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_DAY_OF_WEEK",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "CRASH_MONTH",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "LATITUDE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "LONGITUDE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "LOCATION",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
