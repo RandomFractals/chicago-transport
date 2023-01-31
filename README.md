@@ -27,3 +27,25 @@ You can download Chicago Traffic Crashes data in `CSV` format from the **Export*
  "Chicago Traffic Crashes Data Download")
 
 **Note**: as of 2003-01-31 Chicago Traffic Crashes dataset `CSV` is about 362 MB and contains over 691K traffic crash reports with 49 columns describing crash details, road and weather conditions, injuries and damages.
+
+### View Crash Reports
+
+This data and SQL scripts repository was created to demonstrate our new [DuckDB Sql Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) VSCode IDE extension and other basic data tools available to developers, data analysts, and data scientists in [Visual Studio Code](https://code.visualstudio.com/) for exploratory data analysis (EDA).
+
+In order to use Traffic Crashes data, [DuckDB](https://duckdb.org/), SQL scripts and our DuckDB Sql Tools Code extension to experiment with this data and tools, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this `chicago-transport` repository first:
+
+```
+$ git clone https://github.com/RandomFractals/chicago-transport
+```
+
+This Chicago transport demo/scripts repository contains [`/data`](https://github.com/RandomFractals/chicago-transport/tree/main/data) folder with SQL scripts to create Traffic Crashes DuckDB in-memory instance, export traffic crashes database in `.parquet` format, and a simple `select` SQL query to view the [last 10K crash reports](https://github.com/RandomFractals/chicago-transport/blob/main/data/last-10k-crash-reports.sql) with most of the data columns from the Chicago Traffic Crashes dataset to get you started:
+
+![Chicago Transport Data Folder](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-transport-data-folder.png?raw=true
+ "Chicago Transport Data Folder")
+
+**Note:** due to the `100 MB` github file size limit, please download raw Chicago Traffic Crashes `CSV` data following [download link and instructions above](https://github.com/RandomFractals/chicago-transport#traffic-crashes-data).
+
+After `CSV` data download, copy it over to your local `chicago-transport` project `/data` folder and rename it to `traffic-crashes.csv`.
+
+Install [Visual Studio Code](https://code.visualstudio.com/) IDE, [Node.js](https://nodejs.org/en/) runtime, and [DuckDB Sql Tools](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.duckdb-sql-tools) extension to load and view Chicago Traffic Crashes data with [DuckDB](https://duckdb.org/docs/guides/index).
+
