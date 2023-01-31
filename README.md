@@ -1,4 +1,4 @@
-# chicago-transport
+# Chicago Transportation EDA
 
 Exploratory data analysis of public [Chicago transportation datasets](https://data.cityofchicago.org/browse?category=Transportation) from [Chicago Data Portal](https://data.cityofchicago.org/).
 
@@ -25,3 +25,5 @@ You can download Chicago Traffic Crashes data in `CSV` format from the **Export*
 
 ![Chicago Traffic Crashes Data Download](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-traffic-crashes-data-export.png?raw=true
  "Chicago Traffic Crashes Data Download")
+
+**Note**: as of 2003-01-31 Chicago Traffic Crashes dataset `CSV` is about 362 MB and contains over 691K traffic crash reports with 49 columns describing crash details, road and weather conditions, injuries and damages.
