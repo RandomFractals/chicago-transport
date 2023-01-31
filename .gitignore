@@ -1,2 +1,3 @@
-data/traffic-crashes.csv
+data/*.csv
 data/*.parquet
+data/*.duckdb
