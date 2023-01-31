@@ -51,7 +51,7 @@ Install [Visual Studio Code](https://code.visualstudio.com/) IDE, [Node.js](http
 
 Demonstration of loading `362 MB` of all recorded Chicago Traffic Crash reports from saved `data/traffic-crashes.csv` into DuckDB and querying it with DuckDB Sql Tools extension:
 
-![Chicago Traffic Crashes DuckDB SQL Tools Demo](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-traffic-crashes-duckdb.gif.png?raw=true
+![Chicago Traffic Crashes DuckDB SQL Tools Demo](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-traffic-crashes-duckdb.gif?raw=true
  "Chicago Traffic Crashes DuckDB SQL Tools Demo")
 
 # Prior Works
