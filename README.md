@@ -38,7 +38,7 @@ In order to use Traffic Crashes data, [DuckDB](https://duckdb.org/), SQL scripts
 $ git clone https://github.com/RandomFractals/chicago-transport
 ```
 
-This Chicago transport demo/scripts repository contains [`/data`](https://github.com/RandomFractals/chicago-transport/tree/main/data) folder with SQL scripts to create Traffic Crashes DuckDB in-memory instance, export traffic crashes database in `.parquet` format, and a simple `select` SQL query to view the [last 10K crash reports](https://github.com/RandomFractals/chicago-transport/blob/main/data/last-10k-crash-reports.sql) with most of the data columns from the Chicago Traffic Crashes dataset to get you started:
+This transport demo repository contains [`/data`](https://github.com/RandomFractals/chicago-transport/tree/main/data) folder with SQL scripts to create Traffic Crashes DuckDB in-memory instance, export traffic crashes database in `.parquet` format, and a simple `select` SQL query to view the [last 10K crash reports](https://github.com/RandomFractals/chicago-transport/blob/main/data/last-10k-crash-reports.sql) with most of the data columns from the Chicago Traffic Crashes dataset to get you started:
 
 ![Chicago Transport Data Folder](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-transport-data-folder.png?raw=true
  "Chicago Transport Data Folder")
