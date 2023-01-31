@@ -54,6 +54,8 @@ Demonstration of loading `362 MB` of all recorded Chicago Traffic Crash reports 
 ![Chicago Traffic Crashes DuckDB SQL Tools Demo](https://github.com/RandomFractals/chicago-transport/blob/main/docs/images/chicago-traffic-crashes-duckdb.gif?raw=true
  "Chicago Traffic Crashes DuckDB SQL Tools Demo")
 
+**Note:** to run [`create-traffic-crashes-duckdb-table.sql`](https://github.com/RandomFractals/chicago-transport/blob/main/data/create-traffic-crashes-duckdb-table.sql) with DuckDB SQL Tools change `traffic-crashes.csv` data file path in `CREATE TABLE` SQL statement to absolute path pointing to your local copy of `chicago-transport` repository and data folder.
+
 # Prior Works
 
 You can also explore our [Observable](https://github.com/RandomFractals/Chicago-transportation-notebooks/tree/main/notebooks/observable) and [Quarto](https://github.com/RandomFractals/Chicago-transportation-notebooks/tree/main/notebooks/quarto) [Chicago Transportation Notebooks](https://github.com/RandomFractals/Chicago-transportation-notebooks) 📚 collection created in 2022 on [github](https://github.com/RandomFractals/Chicago-transportation-notebooks) or on [Observable](https://observablehq.com/collection/@randomfractals/transportation) site.
